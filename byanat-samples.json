@@ -1,0 +1,51 @@
+[
+    {
+        "id": "world_flights",
+        "label": "All the Flights in the World",
+        "queryType": "sample",
+        "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/world_flight_s.png",
+        "description": "Two hours of flight data collected by OpenSky Network on September 3rd 2019",
+        "detail": "The dataset contains two hours of flight data collected using the live API of [OpenSky Network](https://opensky-network.org). The color of the flights is based on country of origin. 18 thousands flights are recorded during the two hour period. The path drops over the seas due to lack of satellite coverage. Airline info is added to each flight by joining with data from [airlinecodes.co.uk](http://www.airlinecodes.co.uk/callsignres.asp?callsign=&submit=Submit)",
+        "size": 12938,
+        "visible": true,
+        "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/world_flights/world_flights_soei4h.json",
+        "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/world_flights/config_soei4h.json"
+    },
+
+    {
+        "id": "sfcontour",
+        "label": "San Francisco Elevation Contour",
+        "queryType": "sample",
+        "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/sfcontour.png",
+        "description": "Elevation contours of San Francisco mainland and Treasure Island/Yerba Island.",
+        "detail": "This dataset contains elevation contours for San Francisco mainland and Treasure Island/Yerba Island. Based on San Francisco Elevation Datum. Data source: [DataSF](https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq/data).",
+        "size": 13598,
+        "visible": true,
+        "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sfcontour/data.json",
+        "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sfcontour/config.json"
+    },
+    {
+        "id": "sftrees",
+        "label": "San Francisco Street Tree Map",
+        "queryType": "sample",
+        "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/sftrees.png",
+        "description": "A 3d hexbin density map showing every single streets in San Francisco",
+        "detail": "This dataset contains a list of dpw maintained street trees including planting date, species and location. Data source: [DataSF](https://data.sfgov.org/City-Infrastructure/Street-Tree-List/tkzw-k3nq/data).",
+        "size": 65499,
+        "visible": true,
+        "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sftrees/data.csv",
+        "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sftrees/config.json"
+    },
+    {
+        "id": "county_unemployment",
+        "label": "2017 Unemployment Rates for U.S. Counties",
+        "queryType": "sample",
+        "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/counties-unemployment.png",
+        "description": "2017 Labor force information for U.S. Counties",
+        "detail": " This dataset contains 2017 labor force information from the [Bureau of Labor Statistics](https://www.bls.gov/lau/#tables) joined with county shapefiles from the [Census Bureau](https://www.census.gov/geo/maps-data/data/cbf/cbf_counties.html).",
+        "size": 3220,
+        "visible": true,
+        "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/county_unemployment/data.geojson",
+        "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/county_unemployment/config.json"
+    } 
+]
