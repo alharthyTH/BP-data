@@ -1,17 +1,16 @@
 [
     {
-        "id": "world_flights",
-        "label": "All the Flights in the World",
+        "id": "sec",
+        "label": "Energy Disagregation in Riyadh",
         "queryType": "sample",
-        "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/world_flight_s.png",
-        "description": "Two hours of flight data collected by OpenSky Network on September 3rd 2019",
-        "detail": "The dataset contains two hours of flight data collected using the live API of [OpenSky Network](https://opensky-network.org). The color of the flights is based on country of origin. 18 thousands flights are recorded during the two hour period. The path drops over the seas due to lack of satellite coverage. Airline info is added to each flight by joining with data from [airlinecodes.co.uk](http://www.airlinecodes.co.uk/callsignres.asp?callsign=&submit=Submit)",
+        "imageUrl": "/SEC-sampe-image.png",
+        "description": "All Appliances Energy Disagregation in Riyadh",
+        "detail":"This dataset contains Energy Disagregation with the appliances",
         "size": 12938,
         "visible": true,
-        "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/world_flights/world_flights_soei4h.json",
-        "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/world_flights/config_soei4h.json"
+        "dataUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/Voltaware_disaggregation_results.csv",
+        "configUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/SEC-sample-config.json"
     },
-
     {
         "id": "sfcontour",
         "label": "San Francisco Elevation Contour",
