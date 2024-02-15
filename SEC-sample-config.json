@@ -1,1 +1,199 @@
-{"version":"v1","config":{"visState":{"filters":[{"dataId":["sec"],"id":"hdgi771d","name":["Month"],"type":"range","value":[1,2],"plotType":"histogram","animationWindow":"free","yAxis":null,"view":"side","speed":1,"enabled":true}],"layers":[{"id":"stqarjd","type":"heatmap","config":{"dataId":"sec","label":"new layer","color":[34,63,154],"highlightColor":[252,242,26,255],"columns":{"lat":"Lat","lng":"Long"},"isVisible":true,"visConfig":{"opacity":0.8,"colorRange":{"name":"Ice And Fire","type":"diverging","category":"Uber","colors":["#0198BD","#49E3CE","#E8FEB5","#FEEDB1","#FEAD54","#D50255"]},"radius":29.4},"hidden":false,"textLabel":[{"field":null,"color":[255,255,255],"size":18,"offset":[0,0],"anchor":"start","alignment":"center","outlineWidth":0,"outlineColor":[255,0,0,255],"background":false,"backgroundColor":[0,0,200,255]}]},"visualChannels":{"weightField":{"name":"Monthly_consumption","type":"integer"},"weightScale":"linear"}},{"id":"nezmws","type":"point","config":{"dataId":"sec","label":"point","color":[179,173,158],"highlightColor":[252,242,26,255],"columns":{"lat":"Lat","lng":"Long"},"isVisible":true,"visConfig":{"radius":7.2,"fixedRadius":false,"opacity":0.13,"outline":false,"thickness":2,"strokeColor":null,"colorRange":{"name":"Global Warming","type":"sequential","category":"Uber","colors":["#5A1846","#900C3F","#C70039","#E3611C","#F1920E","#FFC300"]},"strokeColorRange":{"name":"Global Warming","type":"sequential","category":"Uber","colors":["#5A1846","#900C3F","#C70039","#E3611C","#F1920E","#FFC300"]},"radiusRange":[0,50],"filled":true},"hidden":false,"textLabel":[{"field":null,"color":[255,255,255],"size":18,"offset":[0,0],"anchor":"start","alignment":"center","outlineWidth":0,"outlineColor":[255,0,0,255],"background":false,"backgroundColor":[0,0,200,255]}]},"visualChannels":{"colorField":null,"colorScale":"quantile","strokeColorField":null,"strokeColorScale":"quantile","sizeField":null,"sizeScale":"linear"}}],"effects":[],"interactionConfig":{"tooltip":{"fieldsToShow":{"lgug4":[{"name":"device","format":null},{"name":"Lat","format":null},{"name":"Long","format":null},{"name":"Month","format":null},{"name":"year","format":null},{"name":"Monthly_consumption","format":null}]},"compareMode":false,"compareType":"absolute","enabled":true},"brush":{"size":0.5,"enabled":false},"geocoder":{"enabled":false},"coordinate":{"enabled":false}},"layerBlending":"normal","overlayBlending":"normal","splitMaps":[],"animationConfig":{"currentTime":null,"speed":1},"editor":{"features":[],"visible":true}},"mapState":{"bearing":0,"dragRotate":false,"latitude":25.87529328653656,"longitude":43.53749237350261,"pitch":0,"zoom":11.997775311340941,"isSplit":false,"isViewportSynced":true,"isZoomLocked":false,"splitMapViewports":[]},"mapStyle":{"styleType":"dark-matter","topLayerGroups":{},"visibleLayerGroups":{"label":true,"road":true,"border":false,"building":true,"water":true,"land":true,"3d building":false},"threeDBuildingColor":[15.035172933000911,15.035172933000911,15.035172933000911],"backgroundColor":[0,0,0],"mapStyles":{}}}}
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [
+        {
+          "dataId": ["sec"],
+          "id": "hdgi771d",
+          "name": ["Month"],
+          "type": "range",
+          "value": [1, 2],
+          "plotType": "histogram",
+          "animationWindow": "free",
+          "yAxis": null,
+          "view": "side",
+          "speed": 1,
+          "enabled": true
+        }
+      ],
+      "layers": [
+        {
+          "id": "stqarjd",
+          "type": "heatmap",
+          "config": {
+            "dataId": "sec",
+            "label": "new layer",
+            "color": [34, 63, 154],
+            "highlightColor": [252, 242, 26, 255],
+            "columns": { "lat": "Lat", "lng": "Long" },
+            "isVisible": true,
+            "visConfig": {
+              "opacity": 0.8,
+              "colorRange": {
+                "name": "Ice And Fire",
+                "type": "diverging",
+                "category": "Uber",
+                "colors": [
+                  "#0198BD",
+                  "#49E3CE",
+                  "#E8FEB5",
+                  "#FEEDB1",
+                  "#FEAD54",
+                  "#D50255"
+                ]
+              },
+              "radius": 29.4
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [255, 255, 255],
+                "size": 18,
+                "offset": [0, 0],
+                "anchor": "start",
+                "alignment": "center",
+                "outlineWidth": 0,
+                "outlineColor": [255, 0, 0, 255],
+                "background": false,
+                "backgroundColor": [0, 0, 200, 255]
+              }
+            ]
+          },
+          "visualChannels": {
+            "weightField": { "name": "Monthly_consumption", "type": "integer" },
+            "weightScale": "linear"
+          }
+        },
+        {
+          "id": "nezmws",
+          "type": "point",
+          "config": {
+            "dataId": "sec",
+            "label": "point",
+            "color": [179, 173, 158],
+            "highlightColor": [252, 242, 26, 255],
+            "columns": { "lat": "Lat", "lng": "Long" },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 7.2,
+              "fixedRadius": false,
+              "opacity": 0.13,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [0, 50],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [255, 255, 255],
+                "size": 18,
+                "offset": [0, 0],
+                "anchor": "start",
+                "alignment": "center",
+                "outlineWidth": 0,
+                "outlineColor": [255, 0, 0, 255],
+                "background": false,
+                "backgroundColor": [0, 0, 200, 255]
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        }
+      ],
+      "effects": [],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "sec": [
+              { "name": "device", "format": null },
+              { "name": "Lat", "format": null },
+              { "name": "Long", "format": null },
+              { "name": "Month", "format": null },
+              { "name": "year", "format": null },
+              { "name": "Monthly_consumption", "format": null }
+            ]
+          },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": { "size": 0.5, "enabled": false },
+        "geocoder": { "enabled": false },
+        "coordinate": { "enabled": false }
+      },
+      "layerBlending": "normal",
+      "overlayBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": { "currentTime": null, "speed": 1 },
+      "editor": { "features": [], "visible": true }
+    },
+    "mapState": {
+      "bearing": 0,
+      "dragRotate": false,
+      "latitude": 25.87529328653656,
+      "longitude": 43.53749237350261,
+      "pitch": 0,
+      "zoom": 11.997775311340941,
+      "isSplit": false,
+      "isViewportSynced": true,
+      "isZoomLocked": false,
+      "splitMapViewports": []
+    },
+    "mapStyle": {
+      "styleType": "dark-matter",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "border": false,
+        "building": true,
+        "water": true,
+        "land": true,
+        "3d building": false
+      },
+      "threeDBuildingColor": [
+        15.035172933000911, 15.035172933000911, 15.035172933000911
+      ],
+      "backgroundColor": [0, 0, 0],
+      "mapStyles": {}
+    }
+  }
+}
