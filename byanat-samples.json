@@ -1,4 +1,16 @@
 [
+     {
+        "id": "degradation",
+        "label": "Network Degradation Analysis",
+        "queryType": "sample",
+        "imageUrl": "/SEC-sampe-image.png",
+        "description": "Network degradation events across Oman",
+        "detail":"The dataset for network degradation analysis across 5G cells in Oman.",
+        "size": 9840,
+        "visible": true,
+        "dataUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/SEC_Energy_disagregation.csv",
+        "configUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/SEC-sample-config.json"
+    },
     {
         "id": "sec",
         "label": "Energy Disaggregation",
