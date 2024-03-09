@@ -1,0 +1,111 @@
+{
+  savedWidgets: {
+    degradation: [
+      {
+        name: {
+          id: 'widget1',
+          label: 'Pie Chart',
+          icon: '/src/assets/pie-chart.png'
+        },
+        type: 'pie-chart',
+        selectedField: 'Operator (string)',
+        selectedAggregationColumnField: '',
+        selectedDatasetId: [
+          'degradation'
+        ],
+        pieChartSelectedOperation: 'Count',
+        pieChartSecondaryField: null,
+        options: {
+          chart: {
+            id: 'basic-bar'
+          },
+          plotOptions: {
+            bar: {
+              horizontal: true
+            }
+          },
+          yaxis: {
+            labels: {
+              show: true,
+              style: {
+                colors: '#FFFFFF',
+                fontFamily: 'Helvetica, Arial, sans-serif'
+              }
+            }
+          },
+          xaxis: {
+            categories: [
+              'Omantel',
+              'Ooredoo',
+              'Vodafone'
+            ],
+            labels: {
+              show: false
+            }
+          }
+        },
+        series: [
+          {
+            name: 'series-1',
+            data: []
+          }
+        ]
+      },
+      {
+        name: {
+          id: 'widget2',
+          label: 'Category',
+          icon: '/src/assets/category.png'
+        },
+        type: 'category',
+        selectedField: 'Operator (string)',
+        selectedAggregationColumnField: 'AnomalyScore (integer)',
+        selectedDatasetId: [
+          'degradation'
+        ],
+        pieChartSelectedOperation: null,
+        pieChartSecondaryField: null,
+        options: {
+          chart: {
+            id: 'basic-bar'
+          },
+          plotOptions: {
+            bar: {
+              horizontal: true
+            }
+          },
+          yaxis: {
+            labels: {
+              show: true,
+              style: {
+                colors: '#FFFFFF',
+                fontFamily: 'Helvetica, Arial, sans-serif'
+              }
+            }
+          },
+          xaxis: {
+            categories: [
+              'Omantel',
+              'Ooredoo',
+              'Vodafone'
+            ],
+            labels: {
+              show: false
+            },
+            convertedCatToNumeric: false
+          }
+        },
+        series: [
+          {
+            name: 'series-1',
+            data: [
+              10148,
+              10369,
+              10160
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
