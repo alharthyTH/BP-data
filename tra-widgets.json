@@ -1,108 +1,92 @@
 {
-  savedWidgets: {
-    degradation: [
+  "savedWidgets": {
+    "degradation": [
       {
-        name: {
-          id: 'widget1',
-          label: 'Pie Chart',
-          icon: '/src/assets/pie-chart.png'
+        "name": {
+          "id": "widget1",
+          "label": "Pie Chart",
+          "icon": "/src/assets/pie-chart.png"
         },
-        type: 'pie-chart',
-        selectedField: 'Operator (string)',
-        selectedAggregationColumnField: '',
-        selectedDatasetId: [
-          'degradation'
-        ],
-        pieChartSelectedOperation: 'Count',
-        pieChartSecondaryField: null,
-        options: {
-          chart: {
-            id: 'basic-bar'
+        "type": "pie-chart",
+        "selectedField": "Operator (string)",
+        "selectedAggregationColumnField": "",
+        "selectedDatasetId": ["degradation"],
+        "pieChartSelectedOperation": "Count",
+        "pieChartSecondaryField": null,
+        "options": {
+          "chart": {
+            "id": "basic-bar"
           },
-          plotOptions: {
-            bar: {
-              horizontal: true
+          "plotOptions": {
+            "bar": {
+              "horizontal": true
             }
           },
-          yaxis: {
-            labels: {
-              show: true,
-              style: {
-                colors: '#FFFFFF',
-                fontFamily: 'Helvetica, Arial, sans-serif'
+          "yaxis": {
+            "labels": {
+              "show": true,
+              "style": {
+                "colors": "#FFFFFF",
+                "fontFamily": "Helvetica, Arial, sans-serif"
               }
             }
           },
-          xaxis: {
-            categories: [
-              'Omantel',
-              'Ooredoo',
-              'Vodafone'
-            ],
-            labels: {
-              show: false
+          "xaxis": {
+            "categories": ["Omantel", "Ooredoo", "Vodafone"],
+            "labels": {
+              "show": false
             }
           }
         },
-        series: [
+        "series": [
           {
-            name: 'series-1',
-            data: []
+            "name": "series-1",
+            "data": []
           }
         ]
       },
       {
-        name: {
-          id: 'widget2',
-          label: 'Category',
-          icon: '/src/assets/category.png'
+        "name": {
+          "id": "widget2",
+          "label": "Category",
+          "icon": "/src/assets/category.png"
         },
-        type: 'category',
-        selectedField: 'Operator (string)',
-        selectedAggregationColumnField: 'AnomalyScore (integer)',
-        selectedDatasetId: [
-          'degradation'
-        ],
-        pieChartSelectedOperation: null,
-        pieChartSecondaryField: null,
-        options: {
-          chart: {
-            id: 'basic-bar'
+        "type": "category",
+        "selectedField": "Operator (string)",
+        "selectedAggregationColumnField": "AnomalyScore (integer)",
+        "selectedDatasetId": ["degradation"],
+        "pieChartSelectedOperation": null,
+        "pieChartSecondaryField": null,
+        "options": {
+          "chart": {
+            "id": "basic-bar"
           },
-          plotOptions: {
-            bar: {
-              horizontal: true
+          "plotOptions": {
+            "bar": {
+              "horizontal": true
             }
           },
-          yaxis: {
-            labels: {
-              show: true,
-              style: {
-                colors: '#FFFFFF',
-                fontFamily: 'Helvetica, Arial, sans-serif'
+          "yaxis": {
+            "labels": {
+              "show": true,
+              "style": {
+                "colors": "#FFFFFF",
+                "fontFamily": "Helvetica, Arial, sans-serif"
               }
             }
           },
-          xaxis: {
-            categories: [
-              'Omantel',
-              'Ooredoo',
-              'Vodafone'
-            ],
-            labels: {
-              show: false
+          "xaxis": {
+            "categories": ["Omantel", "Ooredoo", "Vodafone"],
+            "labels": {
+              "show": false
             },
-            convertedCatToNumeric: false
+            "convertedCatToNumeric": false
           }
         },
-        series: [
+        "series": [
           {
-            name: 'series-1',
-            data: [
-              10148,
-              10369,
-              10160
-            ]
+            "name": "series-1",
+            "data": [10148, 10369, 10160]
           }
         ]
       }
