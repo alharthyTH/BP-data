@@ -1,11 +1,11 @@
 [
      {
         "id": "degradation",
-        "label": "Network Degradation Analysis",
+        "label": "Site Outages & performance",
         "queryType": "sample",
         "imageUrl": "/SEC-sampe-image.png",
-        "description": "Network degradation events across Oman",
-        "detail":"The dataset for network degradation analysis across 5G cells in Oman.",
+        "description": "Site outages for different operators in Oman",
+        "detail":"",
         "size": 9840,
         "visible": true,
         "dataUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/clustering_results.csv",
