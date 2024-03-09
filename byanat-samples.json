@@ -8,7 +8,7 @@
         "detail":"",
         "size": 33012,
         "visible": true,
-          "testField":"hello",
+        "widgetsUrl":"https://raw.githubusercontent.com/alharthyTH/BP-data/main/tra-widgets.json",
         "dataUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/clustering_results.csv",
         "configUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/config_deg.json"
     },
