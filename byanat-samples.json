@@ -36,6 +36,18 @@
         "dataUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sftrees/data.csv",
         "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sftrees/config.json"
     },
+         {
+        "id": "sector",
+        "label": "5G sectors",
+        "queryType": "file",
+        "imageUrl": "https://s3.amazonaws.com/uber-static/kepler.gl/sample/sftrees.png",
+        "description": "",
+        "detail": "",
+        "size": 1,
+        "visible": false,
+        "dataUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/5G-sectors.geojson",
+        "configUrl": "https://raw.githubusercontent.com/keplergl/kepler.gl-data/master/sftrees/config.json"
+    },
     {
         "id": "county_unemployment",
         "label": "2017 Unemployment Rates for U.S. Counties",
