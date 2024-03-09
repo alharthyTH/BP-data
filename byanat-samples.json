@@ -6,7 +6,7 @@
         "imageUrl": "/SEC-sampe-image.png",
         "description": "Site outages for different operators in Oman",
         "detail":"",
-        "size": 9840,
+        "size": 33012,
         "visible": true,
           "testField":"hello",
         "dataUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/clustering_results.csv",
