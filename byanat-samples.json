@@ -12,18 +12,6 @@
         "configUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/config_deg.json"
     },
     {
-        "id": "sec",
-        "label": "Energy Disaggregation",
-        "queryType": "sample",
-        "imageUrl": "/SEC-sampe-image.png",
-        "description": "All Appliances Energy Disaggregation in Saudi Arabia",
-        "detail":"The dataset for energy disaggregation with appliances is designed to facilitate the study and development of algorithms aimed at identifying individual appliance energy usage from aggregate energy consumption data in a household or commercial setting. This type of dataset typically includes high-resolution energy usage data recorded over time, broken down by individual appliances such as refrigerators, air conditioners, washing machines, and others. The data may be collected using smart meters or dedicated energy monitoring devices installed on each appliance or electrical circuit.",
-        "size": 9840,
-        "visible": true,
-        "dataUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/SEC_Energy_disagregation.csv",
-        "configUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/SEC-sample-config.json"
-    },
-    {
         "id": "sfcontour",
         "label": "San Francisco Elevation Contour",
         "queryType": "sample",
