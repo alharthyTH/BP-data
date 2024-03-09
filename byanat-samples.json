@@ -10,7 +10,7 @@
         "visible": true,
         "widgetsUrl":"https://raw.githubusercontent.com/alharthyTH/BP-data/main/tra-widgets.json",
         "dataUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/clustering_results.csv",
-        "configUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/config_deg.json"
+        "configUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/deg_sector_config.json"
     },
     {
         "id": "sfcontour",
