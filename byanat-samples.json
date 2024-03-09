@@ -8,6 +8,7 @@
         "detail":"",
         "size": 9840,
         "visible": true,
+          "testField":"hello",
         "dataUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/clustering_results.csv",
         "configUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/config_deg.json"
     },
