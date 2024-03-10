@@ -9,7 +9,7 @@
         "size": 33012,
         "visible": true,
         "widgetsUrl":"https://raw.githubusercontent.com/alharthyTH/BP-data/main/tra-widgets.json",
-        "dataUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/clustering_results.csv",
+        "dataUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/clustering_results_omt.csv",
         "configUrl": "https://raw.githubusercontent.com/alharthyTH/BP-data/main/config_deg.json"
     },
     {
